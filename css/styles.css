@@ -182,12 +182,12 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: #23e7dd;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #e6b301;
+  color: #2fe601;
   text-decoration: underline;
 }
 
@@ -10375,7 +10375,7 @@ p {
 }
 .page-section.services {
   padding: 6rem 0;
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url('../assets/img/price-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10383,7 +10383,7 @@ p {
 }
 .page-section.portfolio {
   padding: 6rem 0;
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url('../assets/img/vasil-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10391,7 +10391,7 @@ p {
 }
 .page-section.about {
   padding: 6rem 0;
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url('../assets/img/portfolio-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10399,7 +10399,7 @@ p {
 }
 .page-section.team {
   padding: 6rem 0;
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url('../assets/img/team2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10407,7 +10407,7 @@ p {
 }
 .page-section.contact {
   padding: 6rem 0;
-  background-image: url('../assets/img/header-bg.jpg');
+  background-image: url('../assets/img/team2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
