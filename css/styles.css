@@ -182,12 +182,12 @@ sup {
 }
 
 a {
-  color: #e72364;
+  color: var(--warning);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #c30473;
+  color: yellow;
   text-decoration: underline;
 }
 
