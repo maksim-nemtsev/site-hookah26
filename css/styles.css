@@ -10373,8 +10373,13 @@ p {
 }
 .page-section.services {
   padding: 6rem 0;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(64, 25, 117) 0%,
+    rgb(40, 6, 59) 100%
+  );
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10382,8 +10387,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(4
 }
 .page-section.portfolio {
   padding: 6rem 0;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(64, 25, 117) 0%,
+    rgb(40, 6, 59) 100%
+  );
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10391,17 +10401,27 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(4
 }
 .page-section.about {
   padding: 6rem 0;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
-background-repeat: no-repeat;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(64, 25, 117) 0%,
+    rgb(40, 6, 59) 100%
+  );
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
 .page-section.contact {
   padding: 6rem 0;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(64, 25, 117) 0%,
+    rgb(40, 6, 59) 100%
+  );
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10546,8 +10566,13 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(64, 25, 117) 0%,
+    rgb(40, 6, 59) 100%
+  );
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10862,8 +10887,13 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(64, 25, 117) 0%,
+    rgb(40, 6, 59) 100%
+  );
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -10928,10 +10958,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* дополнительные стили */
 
-.modal-header__tittle {
+.modal-header_h4 {
   color: red;
 }
-.modal-body__content{
+.modal-body__content {
   color: #000;
   font-weight: bold;
 }
@@ -10941,28 +10971,28 @@ section#contact form#contactForm :-ms-input-placeholder {
 .modal-body__link:hover {
   color: #123581;
 }
-.masthead-subheading__tel{
+.masthead-subheading__tel {
   font-weight: bold;
   font-size: 4rem;
 }
-.masthead-subheading__tel2{
+.masthead-subheading__tel2 {
   font-weight: bold;
   font-size: 2rem;
 }
-.text-center__tittle{
+.text-center__tittle {
   color: bisque;
 }
-.text-muted__span{
+.text-muted__span {
   color: crimson;
 }
 .section-heading.text-uppercase.red {
   color: red;
 }
-.section-subheading.bisque{
+.section-subheading.bisque {
   color: bisque;
   font-weight: bold;
 }
-.footer__since{
+.footer__since {
   color: whitesmoke;
 }
 
