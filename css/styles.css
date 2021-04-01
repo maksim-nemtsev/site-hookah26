@@ -2023,8 +2023,6 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-
-
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
@@ -5836,8 +5834,8 @@ a.close.disabled {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
-  padding: 0.75rem;
+  justify-content: center;
+  padding: 1.75rem;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
@@ -10920,4 +10918,48 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* дополнительные стили */
+
+.modal-header__tittle {
+  color: red;
+}
+.modal-body__content{
+  color: #000;
+  font-weight: bold;
+}
+.modal-body__link {
+  color: #007bff;
+}
+.modal-body__link:hover {
+  color: #123581;
+}
+.masthead-subheading__tel{
+  font-weight: bold;
+  font-size: 4rem;
+}
+.masthead-subheading__tel2{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.text-center__tittle{
+  color: bisque;
+}
+.text-muted__span{
+  color: crimson;
+}
+.section-heading.text-uppercase.red {
+  color: red;
+}
+.section-subheading.bisque{
+  color: bisque;
+  font-weight: bold;
+}
+.footer__since{
+  color: whitesmoke;
+}
+
+.btn {
+  border-radius: 35px;
 }

@@ -6,6 +6,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>smoke-me26</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script
@@ -32,6 +34,38 @@
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <div class="wrapper">
+    <!-- modal window -->
+    <div class="container">
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class='modal-header__tittle' class="modal-title">Только лицам 18+ лет !</h4>
+            </div>
+            <div class="modal-body">
+              <p class="modal-body__content" >Лицам, не достигшим совершеннолетия, <br> пользоваться данным сайтом запрещено законом <br>  (ст. 20 ФЗ №15 <br> «Об охране здоровья граждан...»)
+                <a class="modal-body__link" href="http://docs.cntd.ru/document/499002954">ссылка на закон</a>
+                <br>
+                <br>
+              Если вам нет 18 лет,
+              <br>
+              то покиньте пожалуйста
+              <br>
+              данный сайт !
+              </p>
+            </div>
+            <div class="modal-footer ">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Да, мне 18 лет</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
   <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -76,10 +110,10 @@
     <header class="masthead">
       <div class="container">
         <div class="masthead-subheading">
-          <span style="font-weight: bold;font-size: 4rem;"> <a href="tel:+78652677126">677-126</a> </span>
+          <span class="masthead-subheading__tel"> <a href="tel:+78652677126">677-126</a> </span>
         </div>
         <div class="masthead-subheading">
-          <span style="font-weight: bold;font-size: 2rem;"> <a href="tel:+79064664661">+7 (906) 466-466-1</a> </span>
+          <span class="masthead-subheading__tel2"> <a href="tel:+79064664661">+7 (906) 466-466-1</a> </span>
         </div>
         <div class="masthead-heading text-uppercase">
           Кальян на дом <br />
@@ -94,7 +128,7 @@
     <section class="page-section services" id="services">
       <div class="container">
         <div class="text-center">
-          <h2 style="color: bisque;" class="section-heading text-uppercase">Прайс</h2>
+          <h2 class="text-center__tittle" class="section-heading text-uppercase">Прайс</h2>
           <h2 class="section-subheading text-muted">Кальянная карта</h2>
         </div>
         <div class="row text-center">
@@ -102,7 +136,7 @@
             <span class="fa-stack fa-4x mt-3">
               <i class="fas fa-truck text-primary"></i>
             </span>
-            <h4 class="my-3" style="color: bisque;">Готовый кальян на дом на 2 часа от - 699</h4>
+            <h4 class="text-center__tittle" class="my-3">Готовый кальян на дом на 2 часа от - 699</h4>
             <p class="text-muted">
               В комплекте: <br> одна забитая чаша + кальян + две порции углей + печка для розжига углей +
               мундштуки Рекомендуем для компаний от 2 до 4 друзей !
@@ -112,7 +146,7 @@
             <span class="fa-stack fa-4x">
               <i class="fas fa-check-double text-primary"></i>
             </span>
-            <h4 class="my-3" style="color: bisque;">Два Готовых кальяна на дом на 2 часа от - 1399</h4>
+            <h4 class="my-3 text-center__tittle">Два Готовых кальяна на дом на 2 часа от - 1399</h4>
             <p class="text-muted">
               В комплекте: <br> две забитых чаши + два кальяна+ четыре порции углей + печка для розжига
               углей + мундштуки Рекомендуем для больших компаний друзей!
@@ -122,7 +156,7 @@
             <span class="fa-stack fa-4x">
               <i class="fas fa-redo-alt text-primary"></i>
             </span>
-            <h4 class="my-3" style="color: bisque;">Замена чаши + 2 часа курения кальяна от - 350</h4>
+            <h4 class="my-3 text-center__tittle">Замена чаши + 2 часа курения кальяна от - 350</h4>
             <p class="text-muted">В комплекте: <br> одна забитая чаша + две порции углей</p>
           </div>
         </div>
@@ -131,10 +165,10 @@
             <span class="fa-stack fa-4x">
               <i class="fas fa-clock text-primary"></i>
             </span>
-            <h4 class="my-3" style="color: bisque;">Аренда кальяна на час 300</h4>
+            <h4 class="my-3 text-center__tittle" >Аренда кальяна на час 300</h4>
             <p class="text-muted">
               В комплекте: <br> кальян + печка для розжига углей + мундштуки По желанию можно расширить
-              ассортимент аренды. <br/> <span style="color: rgb(255, 0, 0);" >Минимальное время заказа:
+              ассортимент аренды. <br/> <span class="text-muted__span" >Минимальное время заказа:
                 <br>
                 2 часа !</span> 
             </p>
@@ -143,7 +177,7 @@
             <span class="fa-stack fa-4x">
               <i class="fas fa-hourglass-half text-primary"></i>
             </span>
-            <h4 class="my-3" style="color: bisque;">На дом на 24 часа от - 1599</h4>
+            <h4 class="my-3 text-center__tittle">Готовый кальян на дом, на 24 часа от 1599</h4>
             <p class="text-muted">
               В комплекте: <br> три забитых чаши + кальян + шесть порций углей + печка для розжига углей
               + мундштуки Для круглосуточных вечеринок!
@@ -221,7 +255,7 @@
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4 style="color: bisque;">
+              <h4 class="text-center__tittle">
                 <br>
                 Готово!
               </h4>
@@ -234,9 +268,9 @@
     <section class="page-section services" id="services2">
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase"style="color:red">Работаем до 3:00!</h2>
-          <h2 class="section-subheading" style="font-weight: bold; color: bisque">
-            Служба доставки кальянов на дом «SmokeMe!» предлагает Вам заказать приготовленный
+          <h2 class="section-heading text-uppercase red">Работаем до 3:00!</h2>
+          <h2 class="section-subheading bisque">
+            Служба доставки кальянов на дом «SmokeMe!» предлагает заказать Вам, приготовленный
             мастерами своего дела кальян и насладится вкусным дымом у себя дома.
           </h2>
         </div>
@@ -313,8 +347,8 @@
     <section class="page-section contact" >
       <div class="container">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase" style="color: bisque;">Закажите у нас</h2>
-          <h2 class="section-subheading text-muted">И мы вас не разочаруем !</h2>
+          <h2 class="section-subheading bisque">Закажите у нас</h2>
+          <h4 class="section-subheading text-muted">И мы вас не разочаруем !</h4>
         </div>
         <div class="text-center">
           <div id="success"></div>
@@ -337,9 +371,9 @@
     <!-- Footer-->
     <footer class="footer py-4" id="contact">
       <div class="container">
-        <div class="row align-items-center">
-
-          <div class="col-lg-4 my-3 my-lg-0">
+        <div class="column">
+<h3>Мы <br> в социальных <br> сетях</h3>
+          <div class="col my-3 my-5">
             <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/dostavka_kalyana26/"><i class="fab fa-instagram"></i></a>
             <a class="btn btn-dark btn-social mx-2" href="https://vk.com/smokeme677126"><i class="fab fa-vk"></i></a>
             <a class="btn btn-dark btn-social mx-2" href="https://ok.ru/profile/584784570638"
@@ -347,14 +381,14 @@
             ></a>
             
           </div>
-             <div class="col-lg-4 text-lg-left"><a class="btn btn-primary btn-xl m-4 text-uppercase js-scroll-trigger" href="tel:+78652677126"
+             <div class="col text-center"><a class="btn btn-primary btn-xl m-5 text-uppercase js-scroll-trigger" href="tel:+78652677126"
             >Заказать
             </a>
-           <p style="color: white;" >since 2015</p> 
-           <p style="color: white;" >Copyright © SmokeMe26 2021</p> 
           </div>
         </div>
       </div>
+      <p class="footer__since">since 2015</p> 
+      <p class="footer__since">Copyright © SmokeMe26 2021</p>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
