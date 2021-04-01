@@ -10373,7 +10373,8 @@ p {
 }
 .page-section.services {
   padding: 6rem 0;
-  background-image: url('../assets/img/price-bg.jpg');
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10381,7 +10382,8 @@ p {
 }
 .page-section.portfolio {
   padding: 6rem 0;
-  background-image: url('../assets/img/team-bg.png');
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10389,15 +10391,17 @@ p {
 }
 .page-section.about {
   padding: 6rem 0;
-  background-image: url('../assets/img/header-bg.jpg');
-  background-repeat: no-repeat;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
+background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
 .page-section.contact {
   padding: 6rem 0;
-  background-image: url('../assets/img/team2.jpg');
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10542,7 +10546,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url('../assets/img/header-bg.jpg');
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10857,7 +10862,8 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url('../assets/img/map-image.png');
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(64, 25, 117) 0%, rgb(40, 6, 59) 100%);
   background-repeat: no-repeat;
   background-position: center;
 }
